@@ -7,5 +7,12 @@ public class Main{
         System.out.println("Thank You For Choosing Java as Programming Language");
         System.out.println("Current Date : " + new Date());
         System.out.println("Starting of the Jenkins World");
+
+        Person p = new Student("Gaurav", "X", 18);
+        p.personType();
+
+        System.out.println("Person Name : " + p.getName());
+
+        System.out.println("Person Type : " + p.getPersonType());
     }
 }
